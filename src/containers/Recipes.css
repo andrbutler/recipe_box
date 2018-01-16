@@ -1,0 +1,15 @@
+.Recipes {
+  width: 80%;
+  height: auto;
+  background: #fff9e5;
+  border: 5px solid #c14f4f;
+  box-shadow: 3px 2px 2px #a11f1f;
+  margin: 20px auto 5px auto;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  box-sizing: border-box; }
+  @media (max-width: 550px) {
+    .Recipes {
+      width: 100%; } }
+
+/*# sourceMappingURL=Recipes.css.map */

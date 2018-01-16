@@ -1,0 +1,85 @@
+.Recipe {
+    width: 80%;
+    height: auto;
+    background: #fff4d1;
+    box-shadow: 1px 2px 3px #b2aa92;
+    margin: 20px auto;
+    box-sizing: border-box;
+    @media(max-width: 550px){
+        width: 95%;
+    }
+    .Head {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+    h1 { 
+        text-align: left;
+        width: 30%;
+        background: #fff1b6;
+        margin: 0;
+        padding: 3px 0px 2px 7px;
+        box-shadow: 1px 2px 3px #b2aa92;
+        border: 1px solid #bfccb6;
+        box-sizing: border-box;
+        &:hover {
+            background: #fff3d8;
+            border: 2px solid #ededed;
+        }
+        @media(max-width: 550px){
+            width: 90%;
+        }
+    }
+    ul {
+        list-style: none;
+    }
+    li {
+        text-align: left;
+        padding-left: 10px;
+        word-wrap: break-word;
+        @media(max-width: 550px){
+            padding: 0px;
+        }
+    }
+    p { 
+        word-wrap: break-word;
+        padding: 4px;
+    }
+    .Delete {
+        background: #a30808;
+        width: 30px;
+        height: 30px;
+        color: #dddddd;
+        border: 2px solid #dddddd;
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: auto;
+        &:hover {
+            color: #dfdfdf;
+            width: 32px;
+            height: 32px;
+            background: #b31818;
+            border: 2px solid #ededed;
+        }
+    }
+    .Edit {
+        width: 99%;
+        border: 2px solid #fff3c8;
+        background: #fff1b6;
+        margin-bottom: 2px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #333333;
+        &:hover {
+            width: 100%;
+            border: 3px solid #fff8f8;
+            background: #fff8e9;
+            margin-bottom: 1px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #111111;
+        }
+    }
+
+}

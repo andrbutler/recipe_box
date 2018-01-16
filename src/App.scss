@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.Title {
+    font-size: 56px;
+    text-align: center;
+    background: #f4f4d9;
+    width: 80%;
+    margin: 0px auto;
+    border: 5px solid #b13f3f;
+    box-sizing: border-box;
+    box-shadow: 3px 2px 2px #a11f1f;
+    @media (max-width: 550px) {
+        width: 100%;
+    }
+    @media (max-width: 360px) {
+        font-size: 45px;
+    }
+}
+.NewRecipe {
+    width: 80%;
+    margin: 5px auto;
+    color: #fff4d4;
+    border: none;
+    border: 5px solid #b13f3f;
+    box-shadow: 3px 2px 2px #a11f1f;
+    background: #dd4444;
+    font-weight: bold;
+    font-size: 32px;
+    &:hover {
+        background: #cc6666;
+        font-size: 36px;
+        color: #222222;
+    }
+}
